@@ -15,7 +15,7 @@ BATTERY_CAPACITY = 10  # battery capacity of each user, identical for all users 
 TRANSMIT_POWER = 2  # transmit power between each user and access point (AP) #(units)
 ACTION_SPACE_SIZE = math.comb(NUM_USERS, NUM_CHANNELS)
 BANDWIDTH = int(5e6) #5 MHz
-NOISE = -169
+NOISE = -11
 RANGE = 500
 
 
